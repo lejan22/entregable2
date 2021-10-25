@@ -32,7 +32,7 @@ public class PlayerHP : MonoBehaviour
         {
             Debug.Log("Vas bien de vida: tienes {playerHP} puntos de vida");
         }
-        if (isGameOver = false)
+        if (isGameOver = true)
         {
             Debug.Log("GAME OVER");
         }
